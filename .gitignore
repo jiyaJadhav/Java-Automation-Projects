@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+# Reports
+*.html
+
+# Extra cleanup
+target/
+.idea/
