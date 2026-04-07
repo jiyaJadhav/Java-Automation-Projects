@@ -32,6 +32,7 @@ public class LeadCreate extends BaseSteps {
 
             ldp.ClickNewLead();
             ldp.CreateLead(lst.get(i).get("lastname"),lst.get(i).get("company"));
+            System.out.println("hi");
         }
     }
 

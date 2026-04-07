@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Cucumber Test Suite">
+    <test name="Smoke Test">
+        <classes>
+            <class name="com.vtiger.runner.TestRunner"/>
+            <class name="com.vtiger.runner.TestRunner1"/>
+        </classes>
+    </test>
+</suite>

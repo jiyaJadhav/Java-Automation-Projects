@@ -14,3 +14,4 @@ Feature: Lead creation
       | Rajesh   | ATH     |
       | Ramesh   | TGH     |
     Then lead should be created
+

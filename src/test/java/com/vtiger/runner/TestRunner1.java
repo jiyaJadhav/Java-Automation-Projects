@@ -1,5 +1,4 @@
 package com.vtiger.runner;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
@@ -16,8 +15,8 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-reports.html",
                 "json:target/cucumber.json"
         },
-        tags = "@leads"
+        tags = "@validlogin"
 
 )
-public class TestRunner {
+public class TestRunner1 extends AbstractTestNGCucumberTests {
 }
